@@ -34,3 +34,30 @@ transferred to files in a Git repository
 8., Git is open-source licensed., GitHub includes a free-tier and pay-for-use tier.
 9., Git has minimal external tool configuration., GitHub has an active marketplace for tool integration.
 
+---------------------------------------------------------------------------------------------------------
+register https://github.com
+install git bash @https://git-scm.com/downloads
+
+-----------------------------------------------------------------------------------------------------------
+Git Commands
+--------------
+cd Desktop
+
+git init --> create the empty local repositry
+Then it will create 3 logical areas
+
+working area 			staging area						loacl repositry		     Remote repo
+-------------			-------------						----------------	     ------------
+vi DBUtils.java			it is a area which
+--This file will be 	 	is intermetent b/w 
+in working area			working and local 
+				which contains the file
+
+61git status -->where the files are available-->working,staging,local area
+
+To move files from working area to staging area
+---> git add .
+	 git add *
+	 git add *.java --> to move all the java files
+	 git add DBUtilis.java --> to move inly 1 file
+
